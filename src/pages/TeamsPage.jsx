@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-export default function TeamsPage({teams}) {
+function TeamsPage({teams}) {
   return (
     <div>
         {teams && teams.map(team => (
@@ -15,3 +15,5 @@ export default function TeamsPage({teams}) {
     </div>
   )
 }
+
+export default TeamsPage
