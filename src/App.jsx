@@ -3,11 +3,12 @@ import { useEffect, useState } from "react"
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import TeamsPage from "./pages/TeamsPage";
+import PlayersPage from "./pages/PlayersPage";
 
 
 function App() {
   const [teams, setTeams] = useState([]);
-  const [players, setPlayers] = useState();
+  const [players, setPlayers] = useState([]);
 
   useEffect(() => {
     const fetchPlayers = async () => {
@@ -38,7 +39,7 @@ function App() {
     <Routes>
       <Route path="/" element={<HomePage teams={teams} players={players}/>} />
       <Route path="/teams" element={<TeamsPage teams={teams}/>}/>
-      <Route path="/players" element={<TeamsPage players={players}/>}/>
+      <Route path="/players" element={<PlayersPage players={players}/>}/>
     </Routes>
 
   )
