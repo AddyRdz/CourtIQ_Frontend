@@ -1,9 +1,10 @@
 /* cSpell:disable */
 import { useEffect, useState } from "react"
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useNavigate } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import TeamsPage from "./pages/TeamsPage";
 import PlayersPage from "./pages/PlayersPage";
+import PlayersDetails from "./pages/PlayersDetails";
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
       <Route path="/" element={<HomePage teams={teams} players={players}/>} />
       <Route path="/teams" element={<TeamsPage teams={teams}/>}/>
       <Route path="/players" element={<PlayersPage players={players}/>}/>
+      <Route path="/player/:id" element={<PlayersDetails players={players} />} />
     </Routes>
 
   )

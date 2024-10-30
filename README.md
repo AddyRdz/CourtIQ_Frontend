@@ -1,8 +1,16 @@
 # Court IQ
+* Court IQ is a fullstack app that has information regarding your favorite NBA players and teams. Version 1.0 at the moment allows you to gather information from the top 150 basketball players and allows you to leave a rating and a comment to each player.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Technologies Used
+* MongoDB
+* Express
+* React
+* Node
+* Tailwind
 
-Currently, two official plugins are available:
+## Wireframe
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Images
+
+### API
+[api-sports.io](https://api-sports.io/documentation/nba/v2#tag/Teams/operation/get-teams)
