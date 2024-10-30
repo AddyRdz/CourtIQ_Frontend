@@ -1,6 +1,6 @@
 import PlayerCard from "../components/PlayerCard";
 
-function PlayersPage({ players }) {
+function PlayersPage({players}) {
   return (
     <div className="p-4">
       <div className="flex flex-wrap justify-center gap-4">
