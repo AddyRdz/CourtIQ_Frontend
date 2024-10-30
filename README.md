@@ -7,6 +7,7 @@
 * React
 * Node
 * Tailwind
+* Flowbite React
 
 ## Wireframe
 

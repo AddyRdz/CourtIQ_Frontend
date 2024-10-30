@@ -1,24 +1,29 @@
 import { Button, Card } from "flowbite-react";
 import { useNavigate } from "react-router-dom";
 
-export default function PlayerCard({player}) {
-    const navigate = useNavigate();
+export default function PlayerCard({ player }) {
+  const navigate = useNavigate();
 
-    const handleClick = () => {
-        navigate(`/player/${player._id}`);
-    }
+  const handleClick = () => {
+    navigate(`/player/${player._id}`);
+  };
   return (
-    <Card className="max-w-sm">
-      <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-      {player.name}
+    <Card className="cards max-w-sm rounded-2xl shadow-lg p-6">
+      <h5 className="text-2xl font-bold tracking-tight text-gray-900 text-center dark:text-white">
+        {player.name}
       </h5>
-      <p className="font-normal text-gray-700 dark:text-gray-400">
-      {player.team}
+      <p className="cards font-normal text-gray-700 dark:text-gray-400 text-center">
+        {player.team}
       </p>
-      <Button onClick={handleClick} className="text-gray-700 px-4 rounded=true hover:bg-blue-600">
+      <div className="cards flex justify-center mt-4">
+      <Button
+        onClick={handleClick}
+        className="cards text-gray-700 px-4 mt-2 w-fit rounded-lg hover:bg-blue-600"
+      >
         Read more
-      </Button>
+      </Button>  
+      </div>
+      
     </Card>
-
   );
 }

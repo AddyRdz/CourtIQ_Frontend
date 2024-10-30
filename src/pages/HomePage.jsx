@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom'
 
 function HomePage() {
   return (
-    <main className="bg-slate-950 h-screen text-center p-10 ">
+    <main className="home-page bg-slate-900 h-screen text-center p-10 pt-20">
       <h1 className="text-5xl text-white p-5">CourtIQ</h1>
+    
+      <Link to="/players"></Link>
+        <div className="home-page text-xl md:text-2xl lg:text-3xl text-white p-5 font-bold m-14 rounded-full border-4 hover:bg-blue-700" >Players</div>
 
-      <Link to="/players" className="bg-slate-600  text-center p-10 my-14 rounded-full border-4 hover:bg-blue-700 hover:cursor-pointer"></Link>
-        <div className="text-xl md:text-2xl lg:text-3xl font-bold">Players</div>
 
-
-      <Link to="/teams" className="bg-slate-600  text-center p-10  rounded-full border-4 hover:bg-blue-700 hover:cursor-pointer"></Link>
-        <div className="text-xl md:text-2xl lg:text-3xl font-bold">Team</div>
+      <Link to="/teams" className='home-page hover:cursor-pointer' ></Link>
+        <div className="home-page text-xl md:text-2xl lg:text-3xl text-white p-5 font-bold m-14 rounded-full border-4 hover:bg-blue-700">Team</div>
     
     </main>
   )
