@@ -9,7 +9,7 @@ export default function PlayerCard({ player }) {
   };
   return (
     <Card className="cards max-w-sm rounded-2xl shadow-lg p-6">
-      <h5 className="text-2xl font-bold tracking-tight text-gray-900 text-center dark:text-white">
+      <h5 className="cards text-2xl font-bold tracking-tight text-gray-900 text-center dark:text-white">
         {player.name}
       </h5>
       <p className="cards font-normal text-gray-700 dark:text-gray-400 text-center">
