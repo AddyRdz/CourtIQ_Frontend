@@ -6,6 +6,9 @@
 # Court IQ
 * Court IQ is a fullstack app that has information regarding your favorite NBA players and teams. Version 1.0 at the moment allows you to gather information from the top 150 basketball players and allows you to leave a rating and a comment to each player.
 
+## Link
+[Court IQ](https://courtiq-ar.netlify.app/)
+
 ## Technologies Used
 * MongoDB
 * Express
@@ -25,9 +28,6 @@
 
 ## API
 [api-sports.io](https://api-sports.io/documentation/nba/v2#tag/Teams/operation/get-teams)
-
-## Link
-[Court IQ](https://courtiq-ar.netlify.app/)
 
 ### Acknowledgments
 * Previous Class Recordings
