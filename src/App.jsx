@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
     const fetchPlayers = async () => {
-      const res = await fetch('http://localhost:4000/players');
+      const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/players`);
       const playerData = await res.json();
       setPlayers(playerData)
       

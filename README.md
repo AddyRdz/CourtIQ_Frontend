@@ -18,10 +18,14 @@
 <img src="https://github.com/AddyRdz/CourtIQ_Frontend/blob/main/src/images/Screenshot%202024-10-23%20at%201.35.22%E2%80%AFPM.png?raw=true">
 
 ## Images
-* <img src="https://github.com/AddyRdz/CourtIQ_Frontend/blob/main/src/images/Home.png?raw=true">
-* <img src="https://github.com/AddyRdz/CourtIQ_Frontend/blob/main/src/images/Players.png?raw=true">
-* <img src="https://github.com/AddyRdz/CourtIQ_Frontend/blob/main/src/images/Player_Info.png?raw=true">
-* <img src="https://github.com/AddyRdz/CourtIQ_Frontend/blob/main/src/images/Team.png?raw=true">
+ <img src="https://github.com/AddyRdz/CourtIQ_Frontend/blob/main/src/images/Home.png?raw=true">
+ <img src="https://github.com/AddyRdz/CourtIQ_Frontend/blob/main/src/images/Players.png?raw=true">
+ <img src="https://github.com/AddyRdz/CourtIQ_Frontend/blob/main/src/images/Player_Info.png?raw=true">
+ <img src="https://github.com/AddyRdz/CourtIQ_Frontend/blob/main/src/images/Team.png?raw=true">
 
-### API
+## API
 [api-sports.io](https://api-sports.io/documentation/nba/v2#tag/Teams/operation/get-teams)
+
+### Acknowledgments
+* Previous Class Recordings
+* ChatGPT - created data to test my backend. 
