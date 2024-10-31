@@ -26,6 +26,10 @@
 ## API
 [api-sports.io](https://api-sports.io/documentation/nba/v2#tag/Teams/operation/get-teams)
 
+## Link
+[Courtiq](https://courtiq-ar.netlify.app/)
+
 ### Acknowledgments
 * Previous Class Recordings
-* ChatGPT - created data to test my backend. 
+* ChatGPT - created data to test my backend.
+* PerScholas 
