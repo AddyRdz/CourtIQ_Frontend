@@ -9,6 +9,7 @@ function TeamsPage({ teams }) {
             <div key={team._id}>
               <h1>NBA TEAM: {team.name}</h1>
               <h2>Location: {team.city}</h2>
+              <h2>Nickname: {team.nickname}</h2>
             </div>
           ))}
       </div>
